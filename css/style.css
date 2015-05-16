@@ -67,6 +67,7 @@ li.after-active {
 #myCarousel {
     height: 462px;
     background-image: url("../images/background-slider1.png");
+    background-size: cover;
     background-position: center;
     background-color: #292f36;
 }
