@@ -1,0 +1,539 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700); /* sans-serif */
+@import url(http://fonts.googleapis.com/css?family=Quattrocento:400,700); /* serif */
+
+.row {
+    width: 67.31%; 
+    margin: 0 auto;
+}
+
+/* HEADER */
+header {
+    background-color: #1d2126;
+    min-height: 50px;
+    max-height: 80px;
+    padding: 1.3116% 0;
+    color: #a4aead;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+/* LOGO */
+header img {
+    width: 22.2%;   
+}
+/* END LOGO */
+
+/* NAVIGATION */
+.nav {
+    padding: 0.3% 2.5%;
+    font-size: 64%;
+    color: #a4aead;
+}
+
+.menu li {
+    padding: 0.55% 1.5%;
+    margin-left: 2.1%;
+    border: 1.5px solid #1d2126;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu li:hover {
+    color: #a4aead;
+    border: 1.5px solid #a4aead;
+    border-radius: 3px;
+    box-sizing: padding-box;
+}
+
+li.active {
+    border: 1.5px solid #23b7a4;
+    border-radius: 3px;
+    color: #23b7a4;
+    margin-left: 0;
+}
+
+li.active:hover {
+    border-color: #23b7a4;
+    color: #23b7a4;
+}
+
+li.after-active {
+    margin-left: 4.8%;
+}
+/* END NAVIGATION */
+
+/* END HEADER */
+
+/* SLIDER */
+#myCarousel {
+    height: 462px;
+    background-image: url("../images/background-slider1.png");
+    background-position: center;
+    background-color: #292f36;
+}
+
+#myCarousel::after {
+    opacity: 0.5;
+    background-color: black;
+}
+
+.description {
+    margin: 18.66% 0;
+    font-family: 'Quattrocento', serif;
+}
+
+.description h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 150%;
+}
+
+.description p {
+    font-family: OpenSans;
+    font-size: 80%;
+    margin: 2.8% 0.2% 6% 0.2%;
+    color: #fff;
+}
+
+.description li {
+    float: left;
+}
+
+.description li a {
+    font-size: 78%;
+}
+
+#more,#tour {
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+#tour {
+    margin-left: 7.8px;
+}
+
+#more:hover,#tour:hover {
+    background-color:#23b7a4;
+    border-color:#23b7a4;    
+}
+
+.icons {
+    padding-left: 9.4%;
+    margin-top: 52%;
+}
+
+.icon {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.active-icon {
+    background-color: #ffffff;
+}
+
+.icons li:hover {
+    background-color: #ffffff;
+}
+
+/* END SLIDER */
+
+/* START OF "ABOUT" SECTION */
+
+#about {
+    padding: 4.4% 3.1% 2.5% 3.1%;    
+}
+
+.content-heading {
+    margin: 2px 0 0 15px;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Quattrocento', serif;
+    text-transform: uppercase;
+}
+
+#delimiter {
+    float: left;
+    width: 7px;
+    height: 25px;
+    background-color: #e1e6ea;    
+}
+
+.about-content {
+    padding: 0;
+    margin: 4.5% 0;
+    font-size: 80%;
+    
+}
+
+.numbers {
+    width: 35px;
+    height: 35px;
+    background-color: #23b7a4;
+    margin: 5px 15px 170% -2px;  
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 35px;
+    text-align: center;
+}
+
+#about .h4 {
+    margin: 3px 0 7px -10px;
+    font-size: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Quattrocento', serif;
+}
+
+.about-headers-cont {
+    margin-top: 9.25%;    
+}
+
+.underh4 {
+    margin-left: -10px;
+    font-size: 95%;        
+}
+
+#about-icons li {
+    float: left;
+    width: 42px;
+    margin: 16px 1px 0 0;
+}
+
+#about-icons li:hover {
+    opacity: 0.8;
+}
+
+.hr {
+    width: 100%;
+    height: 2px;
+    background-color: #dde1e4;
+}
+
+/* END OF "ABOUT" SECTION */
+
+/* START OF "OUR TEAM" SECTION */
+
+#our-team {
+    padding: 4.4% 3.1% 2.5% 3.1%;
+    font-family: 'Quattrocento', serif;
+}
+
+.team {
+    padding: 0;
+    margin: 4% 0;
+    font-size: 80%;
+    width: 25%;
+    height: 300px;
+}
+
+.thumbnail>img {
+    height: 218px;    
+}
+
+#teammates {
+    display: block;
+    margin-top: 4px;
+    line-height: 1.42857143;
+    border: 0;
+    position: relative;
+}
+
+.caption {
+    background-color: #e1e6ea;    
+}
+
+.caption p {
+    color: #353b42;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+
+.caption p + p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    color: #babdc1;
+    text-transform: none;
+    margin-top: -4px;
+}
+
+#cap1 {
+    margin: 0 2px;
+}
+
+#cap2 {
+    margin: 0 1px 0 0;
+}
+
+#cap3 {
+    margin: 0 0px;
+}
+
+#cap4 {
+    margin: 0 1px 0 0;
+}
+
+.icons-team {
+    display: none;
+    position: absolute;
+    left: 19%;
+    top: 35%;
+}
+
+.icons-team li {
+    float: left;
+    width: 40px;
+    margin-left: 1px;
+}
+
+.icons-team li:hover {
+    opacity: 0.8;
+}
+
+/* END OF "OUR TEAM" SECTION */
+
+/* START OF "WORK" SECTION */
+
+#work {
+    padding: 4.4% 3.1% 2.5% 3.1%;
+    font-family: 'Quattrocento', serif;
+    background-color: #3a454d;
+    color: #ffffff;
+}
+
+#work .content-heading {
+    margin: 2px 0 4% 15px;
+}
+
+#work .col-sm-4 {
+    padding: 0 20px 20px 0;
+    margin-top: 0;
+    position: relative;
+}
+
+#work .plus, .text {
+    position: absolute;
+    display: none;
+}
+
+#work .plus {
+    left: 46%;
+    bottom: 56%;
+}
+
+#work .plus a {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+#work .text {
+    width: 92.5%;
+    padding: 6%;
+    font-size: 70%;
+    text-transform: uppercase;
+    bottom: 7.5%;
+    background-color: #353b42;
+    font-weight: bold;
+}
+
+#work .plus:hover {
+    opacity: 0.7;
+}
+
+#show-more {
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+    margin: 1.5% 0 1.5% 45.5%;
+}
+
+#show-more:hover {
+    background-color: #23b7a4;
+    border-color: #23b7a4;    
+}
+
+/* END OF "WORK" SECTION */
+
+/* START OF "WORK" SECTION */
+
+#services {
+    padding: 4.4% 3.1% 2.5% 3.1%;
+    font-family: 'Quattrocento', serif;
+    color: #000000;
+    text-align: center;
+}
+
+#services .content-heading {
+    margin: 2px 0 4% 15px;
+    text-align: left;
+}
+
+#services img {
+    padding: 25px 0 25px 0;    
+}
+
+#services .lead {
+    font-size: 90%; 
+    text-transform: uppercase;
+}
+
+#services p {
+    font-size: 75%; 
+}
+
+#services .row-2 {
+    margin-top: 25px;
+    margin-bottom: 5%;
+}
+
+/* END OF "WORK" SECTION */
+
+/* START OF "FEATURES" SECTION */
+
+#features {
+    padding: 4.4% 3.1% 2.5% 3.1%;
+    font-family: 'Quattrocento', serif;
+    color: #ffffff;
+    background-color: #3a454d;
+    text-align: left;
+}
+
+#features .content-heading {
+    margin: 2px 0 4% 15px;
+    text-align: left;
+}
+
+#features .col-sm-4 {
+    padding: 0;
+    width: 31.5%;
+    margin-bottom: 7.5%;
+}
+
+#features #column2 {
+    margin: 0 20px;
+}
+
+#features img {
+    padding: 25px 0; 
+}
+
+#features .lead {
+    font-size: 90%; 
+    text-transform: uppercase;
+}
+
+#features p {
+    font-size: 75%; 
+}
+
+/* END OF "FEATURES" SECTION */
+
+/* END OF "CONTACT" SECTION */
+
+#contact {
+    padding: 4.4% 3.1% 2.5% 3.1%;
+    font-family: 'Quattrocento', serif;
+    position: relative;
+}
+
+#contact img {
+    position: absolute;
+    width: 100%;  
+    left: 0;
+    top: 20%;
+    z-index: 1;
+}
+
+#contact .content-heading {
+    margin: 2px 0 4% 15px;
+    text-align: left;
+}
+
+#contact .lead {
+    margin-top: 65%;
+    font-size: 90%; 
+    text-transform: uppercase;
+}
+
+#contact p {
+    font-size: 75%; 
+}
+
+#contact .contacts {
+    padding: 2.5%;
+    background-color: #ffffff;
+    position: absolute;
+    left: 55%;
+    top: 40%;
+    z-index: 2;
+    width: 350px;
+    text-align: left;
+}
+
+#contact .contacts input {
+    background-color: #eaeef1;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    padding: 2px 10px;
+    width: 48.3%;
+}
+
+#contact .contacts textarea {
+    background-color: #eaeef1;
+    border: 0;
+    outline: 0;
+    border-radius: 2px;
+    width: 100%;
+    margin-top: 7.5%;
+    resize: none;
+    padding: 10px;
+}
+
+#send {
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #23b7a4;
+    margin-top: 10px;
+    font-size: 70%;
+}
+
+#contact span {
+    margin-right: 72px;
+}
+
+#textarea {
+    margin-top: 15px;
+    margin-bottom: -20px;
+}
+
+/* END OF "CONTACT" SECTION */
+
+/* END OF FOOTER SECTION */
+
+footer {
+    height: 50px; 
+    position: relative;
+    background-color: #3a454d;
+}
+
+footer ul {
+    margin-left: 70%;    
+}
+
+footer li {
+    display: inline;  
+    line-height: 50px;
+    margin-left: 10px;
+}
+
+footer li:hover {
+    opacity: 0.7;   
+}
+
+/* END OF FOOTER SECTION */
