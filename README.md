@@ -1,4 +1,4 @@
-# 4.-Modest--HTML-Website
+# Modest--HTML-Website
 This is modern landing page with good jQuery effects and responsive design.
 
 
